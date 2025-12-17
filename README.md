@@ -52,7 +52,6 @@ base_scraper/
 ├── main.py                # Entry point (executes login & scraping)
 ├── visualize.py           # Dashboard generator
 ├── scraper/
-│   ├── __init__.py
 │   ├── client.py          # API interaction and CSV parsing logic
 ├── data/                  # Directory where CSV files will be saved
 ├── .env                   # Environment variables (Credentials)
