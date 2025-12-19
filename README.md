@@ -35,9 +35,9 @@ pip install -r requirements.txt
 Start the FastAPI server. This will serve both the scraping endpoints and the dashboard.
 
 ```bash
-python api.py
+python main.py
 # OR if you have uvicorn installed directly
-uvicorn api:app --reload
+uvicorn main:app --reload
 ```
 
 The server will start at `http://127.0.0.1:8000`

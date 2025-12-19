@@ -43,9 +43,8 @@ def generate_dashboard_html():
     for date in sorted(hierarchy.keys()):
         formatted_date = datetime.strptime(date, '%Y-%m-%d').strftime('%A, %d %b %Y')
         
-        # Start Date Block
         generated_html += f"""
-        <div class="date-block">
+        <div class="date-block" data-date="{date}">
             <div class="date-header">{formatted_date}</div>
         """
         
